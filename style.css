@@ -5,7 +5,7 @@ body {
 
 	/* Jumbotron */
 .jumbotron {
-	background: url(img/bg.jpg);
+	background: url(img/branding/bg.jpg);
 	background-size: cover;
 	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 	background-position: center;
@@ -19,8 +19,28 @@ body {
 }
 
 	/* Brand */
-.brand-container {
-	margin-top: 20px;
+.navbar-toggler {
+	background-color: ghostwhite;
+}
+
+	/* Main */
+.column-1, .column-3 {
+	background-color: #e6ac00;
+}
+
+.mainContent img {
+	width: 100px;
+	margin: 15px auto;
+}
+
+.mainContent h3, .mainContent p {
+	color: ghostwhite;
+	vertical-align: middle;
+}
+
+.column-2 h3, .column-2 p {
+	color: black;
+	vertical-align: middle;
 }
 
 	/* Menu */
