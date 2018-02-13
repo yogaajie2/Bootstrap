@@ -24,6 +24,11 @@ body {
 }
 
 	/* Main */
+.mainTitle h2{
+	display: inline-block;
+	border-bottom: 5px solid #e6ac00;
+}
+
 .column-1, .column-3 {
 	background-color: #e6ac00;
 }
@@ -38,9 +43,27 @@ body {
 	vertical-align: middle;
 }
 
+.mainContent p {
+	text-align: justify;
+}
+
 .column-2 h3, .column-2 p {
 	color: black;
 	vertical-align: middle;
 }
 
 	/* Menu */
+a.carouselLink {
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+a.carouselLink:hover {
+	color: #e6ac00;
+	text-decoration: none;
+}
+
+	/* Contact */
+#contact {
+	background-color: #e6ac00;
+}
