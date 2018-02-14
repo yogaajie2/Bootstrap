@@ -64,6 +64,28 @@ a.carouselLink:hover {
 }
 
 	/* Contact */
-#contact {
+#contact, footer {
 	background-color: #e6ac00;
+}
+
+.contactIconTop {
+	font-size: 72px;
+	vertical-align: middle;
+	margin: auto 10px;
+}
+
+.contactIconBottom {
+	font-size: 48px;
+	vertical-align: middle;
+	margin: auto 10px;
+}
+
+.contactDetail {
+	display: inline;
+	vertical-align: middle;
+}
+
+	/* Footer */
+.copyright, .signature {
+	font-size: 12px;
 }
